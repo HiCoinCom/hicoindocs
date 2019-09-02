@@ -3,14 +3,15 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to HiCoin's documentation!
+HiCoin 使用文档
 ==================================
 
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
 
-
+   Introduction/index
+   Functions/index
 
 Indices and tables
 ==================
