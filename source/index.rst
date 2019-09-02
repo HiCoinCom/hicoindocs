@@ -13,9 +13,3 @@ HiCoin 使用文档
    Introduction/index
    Functions/index
 
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
