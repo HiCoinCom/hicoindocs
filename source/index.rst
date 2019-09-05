@@ -10,6 +10,6 @@ HiCoin 使用文档
    :maxdepth: 2
    :caption: Contents:
 
-   Introduction/index
-   Functions/index
+   HiCoin概述<Introduction/index>
+   功能概述2<Functions/index>
 
