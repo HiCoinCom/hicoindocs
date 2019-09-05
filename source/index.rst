@@ -4,11 +4,11 @@
    contain the root `toctree` directive.
 
 HiCoin 使用文档
-==================================
+==============
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: 目录:
 
    HiCoin概述<Introduction/index>
    功能概述<Functions/index>
@@ -18,5 +18,5 @@ HiCoin 使用文档
    综合支付解决方案<Solution-Payment/index>
    托管(Custody) WaaS API文档<API-WaaS/index>
    开放平台文档<API-Open/index>
-   文档中心<Documents/index>
+   下载文档中心<Documents/index>
    常见问题(FQA)<FQA/index>

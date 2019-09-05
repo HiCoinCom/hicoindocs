@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-HiCoin 概述
+下载文档中心
 ==============
 
 .. toctree::
