@@ -6,7 +6,7 @@
 HiCoin 概述
 ==============
 
-.. image:: ../images/logo_hicoin.png
+.. image:: images/logo_hicoin.png
    :width: 348px
    :height: 90px
    :scale: 100%
