@@ -14,7 +14,7 @@
 =================== ============= ========
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
    :caption: 目录:
 
 	1 接口说明与规则<api_description>
