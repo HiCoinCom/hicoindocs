@@ -7,11 +7,12 @@ HiCoin 使用文档
 ==============
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
    :caption: 目录:
 
    HiCoin概述<Introduction/index>
    功能概述<Functions/index>
+   技术构架概述<Technology/index>
    对接流程<DeliveryProcess/index>
    全功能钱包解决方案<Solution-FullFuctions/index>
    资管解决方案<Solution-Custody/index>
