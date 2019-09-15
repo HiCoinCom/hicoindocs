@@ -1,9 +1,23 @@
-.. HiCoin documentation master file, created by
-   sphinx-quickstart on Sun Sep  1 21:32:34 2019.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
-
 开放平台(Open API)文档
 =============================
+
+
+**更新记录**
+
+======= ============= ====== ===================================
+版本     日期          作者    描述
+V1.0    2019-08-16    钟鹏华  创建文档
+V1.1    2019-08-17    钟鹏华  添加测试域名与应用信息
+======= ============= ====== ===================================
+
+.. toctree::
+   :maxdepth: 3
+   :caption: 目录:
+
+	1 接口描述<openapi_description>
+  	2 OAuth授权<openapi_oauth>
+  	3 H5支付<openapi_h5payment>
+  	4 商户给用户打款<openapi_merchant_payment>
+  	5 附录<openapi_note>
 
 
