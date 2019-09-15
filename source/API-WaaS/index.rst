@@ -1,9 +1,25 @@
-.. HiCoin documentation master file, created by
-   sphinx-quickstart on Sun Sep  1 21:32:34 2019.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
 
 托管(Custody) WaaS API文档
-========================
+==============================================
 
+
+**更新记录**
+
+=================== ============= ========
+更新日志             时间           更新人 
+文档创建             2019/03/13    罗斌 
+接口错误码更新        2019/03/13    钟鹏华
+增加提现地址校验，     2019/07/17    罗斌 
+更新错误             2019/07/17     罗斌
+=================== ============= ========
+
+.. toctree::
+   :maxdepth: 3
+   :caption: 目录:
+
+	1 接口说明与规则<api_description>
+	2 接口文档<api/index>
+	3 域名及API密钥<api_domain_secret>
+	4 附录<api_note>
+	5 常见问题(FQA)<api_fqa>
 

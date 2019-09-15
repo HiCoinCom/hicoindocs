@@ -4,7 +4,7 @@
    contain the root `toctree` directive.
 
 HiCoin 使用文档
-==============
+======================
 
 .. toctree::
    :maxdepth: 3
