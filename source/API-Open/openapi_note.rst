@@ -82,7 +82,20 @@
  
 ::
 
-	此处为代码
+	public function getSignature($arrdata,$method="sha256",$extend='') {
+	    if (!function_exists($method)) return false;
+	    ksort($arrdata);
+	    $paramstring = "";
+	    foreach($arrdata as $key => $value)
+	    {
+	        if(strlen($paramstring) == 0)
+	            $paramstring .= $key . "=" . $value;
+	        else
+	            $paramstring .= "&" . $key . "=" . $value;
+	    }
+	    $Sign = $method($paramstring.$extend);
+	    return $Sign;
+	}
  
 2、生成随机数算法
 ~~~~~~~~~~~~~~~~~~~~~~~~
@@ -91,7 +104,16 @@
  
 ::
 
-	此处为代码
+	public function generateNonceStr($length=16){
+	    // 密码字符集，可任意添加你需要的字符
+	    $chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+	    $str = "";
+	    for($i = 0; $i < $length; $i++)
+	    {
+	        $str .= $chars[mt_rand(0, strlen($chars) - 1)];
+	    }
+	    return $str;
+	}
 
 
 
