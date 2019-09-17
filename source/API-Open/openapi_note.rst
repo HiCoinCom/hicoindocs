@@ -36,7 +36,7 @@
 
 3、如果需要，开发者可以刷新网页授权access_token，避免过期，通过接口：< `/sns/oauth/refresh_token <http://docs.hicoin.vip/zh/latest/API-Open/openapi_oauth.html#access-token>`_>。
 
-4、通过网页授权access_token和openid获取用户基本信息，通过接口：/sns/user/info。
+4、通过网页授权access_token和openid获取用户基本信息，通过接口：< `/sns/user/info <http://docs.hicoin.vip/en/latest/API-Open/openapi_user.html#id2>`_>。
 
 
 
