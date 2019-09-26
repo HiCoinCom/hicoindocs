@@ -34,6 +34,6 @@ data	string	必填	status=0转账成功，status=1表示失败
 	    "code": "0",
 	    "msg": "suc",
 	    "data": {
-		    "statuts": 0
+		    "status": 0
 	    }
 	}
