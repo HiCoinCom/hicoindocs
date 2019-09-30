@@ -17,8 +17,18 @@ HiCoin基于海量的客户需求，研发了三大钱包系统：云端钱包�
    :scale: 100%
    :align: center
 
-APP功能点(基于2.3.2版本)
+APP功能点(基于2.3.1版本)
 --------------------------------
+.. image:: images/functions_app.png
+   :width: 859px
+   :height: 2970px
+   :scale: 100%
+   :align: center
 
 后台功能点(基于201909版本)
 --------------------------------
+.. image:: images/functions_background.png
+   :width: 859px
+   :height: 1668px
+   :scale: 100%
+   :align: center
