@@ -143,7 +143,7 @@ subject               string     是         订单标题
 --------------------------
 
 :说明: h5支付页面地址 ，直接HTTP 302, 非ajax接口
-:接口地址: http://testweb.hicoin.one/hicoinfe/payment
+:接口地址: https://api.hicoin.vip/hicoinfe/payment
 :请求方式: GET
 :请求参数:
 
@@ -159,10 +159,10 @@ paySign               String     是          签名，见下方说明
 
 **重点字段说明：**
 
-- nonceStr: 随机字符串，不长于32位。 推荐随机数生成算法：5K8264ILTKCH16CQ2502SI8ZNMTM67VS
+- nonceStr: 随机字符串，不长于32位。 例如：2K426TILTKCH16CQ25145I8ZNMTM67VS
 - package: 统一下单接口返回的prepay_id参数值， 提交格式如：prepay_id=***：prepay_id=123456789 ， 128位
-- signType: ，支持HMAC-SHA256。 注意此处需与统一下单的签名类型一致： HMAC-SHA256， 32位
-- paySign: 签名，详见签名生成算法：C380BEC2BFD727A4B6845133519F3AD6， 64位
+- signType: 支持HMAC-SHA256。 注意此处需与统一下单的签名类型一致： HMAC-SHA256， 32位
+- paySign: 详见签名生成算法(附录二)
 
 :响应参数:
 

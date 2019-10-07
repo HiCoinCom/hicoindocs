@@ -1,7 +1,7 @@
 2 OAuth授权
 ====================
 
-:域名: http://oauth.hicoin.one/api
+:域名: https://oauth.hicoin.one/api
 
 2.1 业务流程图
 -------------------
@@ -15,7 +15,7 @@
 --------------------------
 
 :说明: 第三方静默授权页面跳转页面，注意：此接口无需公共参数
-:接口地址: /connect/oauth/authorize
+:页面访问地址: https://oauth.hicoin.vip/api/connect/oauth/authorize
 :请求方式: GET
 :请求参数:
 
