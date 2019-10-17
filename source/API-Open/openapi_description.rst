@@ -16,7 +16,8 @@ charset          string     是          固定utf8
 
 **重点字段说明：**
 
-- access_token: 此处使用础授权接口(用户授权接口使用用户授权access_token，其它接口使用基础授权接口access_token)
+- access_token: 此文档用户授权access_token使用场景如下：1、支付预下单 /pay/preOrde  2、获取用户基本信息 /sns/user/info ;
+                其它接口请使用基础授权接口access_token 。
 
 
 **公共返回参数**
