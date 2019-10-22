@@ -143,7 +143,7 @@ subject               string     是         订单标题
 --------------------------
 
 :说明: h5支付页面地址 ，直接HTTP 302, 非ajax接口
-:接口地址: https://api.hicoin.vip/hicoinfe/payment
+:接口地址: https://XXX/hicoinfe/payment     其中XXX为商户域名
 :请求方式: GET
 :请求参数:
 
