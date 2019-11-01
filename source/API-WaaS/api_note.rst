@@ -215,7 +215,7 @@ code	msg
 	        if($key == "sign"){
 	            continue;
 	        }
-	        if(!empty($value)){
+	        if(!empty($value) && $v!=0){
 	            $stringBuffer[] = "{$key}={$value}";
 	        }
 	    }
