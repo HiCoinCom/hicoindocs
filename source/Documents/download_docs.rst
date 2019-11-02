@@ -6,9 +6,13 @@
 文档中心
 ==============
 
-.. toctree::
-   :maxdepth: 3
-   :caption: 目录:
+1 下载文档
+-------------------
 
-	1 下载文档<download_docs>
-  	2 视频教程<videos>
+2 视频教程
+-------------------
+
+2.1 内部支付款视频
+.. raw:: html
+
+    <iframe frameborder="0" src="https://v.qq.com/txp/iframe/player.html?vid=k3016vgfkva" allowFullScreen="true"></iframe>
