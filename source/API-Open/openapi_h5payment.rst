@@ -160,7 +160,7 @@ paySign               String     是          签名，见下方说明
 **重点字段说明：**
 
 - nonceStr: 随机字符串，不长于32位。 例如：2K426TILTKCH16CQ25145I8ZNMTM67VS
-- package: 统一下单接口返回的prepay_id参数值， 提交格式如：prepay_id=***：prepay_id=123456789 ， 128位
+- package: 统一下单接口返回的prepay_id参数值， 提交格式如：prepay_id=***：prepay_id=123456789 ，该参数请URLEncoder按utf-8编码， 128位
 - signType: 支持HMAC-SHA256。 注意此处需与统一下单的签名类型一致： HMAC-SHA256， 32位
 - paySign: 详见签名生成算法(附录二)
 
