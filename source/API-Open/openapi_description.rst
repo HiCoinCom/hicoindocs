@@ -54,3 +54,14 @@ data             T          是          业务数据具体为以下输出参数
 :商户打款域名: http://avenger.hicoin.one/api ，此项目接口需要基础授权token
 :支付页面: http://testweb.hicoin.one/hicoinfe/payment/?appId=10021235678&nonceStr=330b1d9b67e4440abff6d9c89ddb9b86&package=prepay_id%3D1074156653097672700214&signType=MD5&timeStamp=1566530976741&paySign=a7fe3487f19688b44196508ee7232c23
 
+
+注：网页授权流程分为四步（具体接口参数，参考接口文档）
+1.通过 http://oauth.hicoin.one/api/connect/oauth/authorize 获取 code 
+2.通过 http://oauth.hicoin.one/api/sns/oauth/access_token 获取openid
+3.通过 http://avenger.hicoin.one/api/cgi-bin/access_token 获取基础access_token
+4.通过 http://oauth.hicoin.one/api/sns/user/info 获取用户信息 
+
+
+
+
+
