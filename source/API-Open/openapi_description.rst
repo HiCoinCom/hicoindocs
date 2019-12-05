@@ -6,7 +6,7 @@
 
 2、请先下载测试环境的钱包，手机号注册新账号， 注：该手机号对应的账户，可查看充值、提现及结算的相关资金信息，请根据实际情况选择。
 钱包下载链接：
-http://hicoin-open-test.oss-cn-hangzhou.aliyuncs.com/dev-v2.3.2-open-legu-testweb-1002.apk
+http://hicoin-open-test.oss-cn-hangzhou.aliyuncs.com/dev-v2.3.2-open-legu-testweb-1002.apk   
 或者扫描二维码下载
 
 
@@ -58,11 +58,15 @@ data             T          是          业务数据具体为以下输出参数
 :支付页面: http://testweb.hicoin.one/hicoinfe/payment/?appId=10021235678&nonceStr=330b1d9b67e4440abff6d9c89ddb9b86&package=prepay_id%3D1074156653097672700214&signType=MD5&timeStamp=1566530976741&paySign=a7fe3487f19688b44196508ee7232c23
 
 
+
 注：网页授权流程分为四步（具体接口参数，参考接口文档）
 1.通过 http://oauth.hicoin.one/api/connect/oauth/authorize 获取 code 
 2.通过 http://oauth.hicoin.one/api/sns/oauth/access_token 获取openid
 3.通过 http://avenger.hicoin.one/api/cgi-bin/access_token 获取基础access_token
 4.通过 http://oauth.hicoin.one/api/sns/user/info 获取用户信息 
+
+
+
 
 
 
