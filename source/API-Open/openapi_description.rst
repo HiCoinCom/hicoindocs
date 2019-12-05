@@ -5,7 +5,10 @@
 1、HiCoin开放平台，测试环境地址链接： http://open.hicoin.one/
 
 2、请先下载测试环境的钱包，手机号注册新账号， 注：该手机号对应的账户，可查看充值、提现及结算的相关资金信息，请根据实际情况选择。
-钱包下载链接：https://space.dingtalk.com/s/gwHOAIyJigLOEHQORQPaACA0NTQzYjVjMzk1MmQ0ZjM5YjYyMGFiODZiZDI5MTg5Nw， 提取码：XEtt
+钱包下载链接：
+http://hicoin-open-test.oss-cn-hangzhou.aliyuncs.com/dev-v2.3.2-open-legu-testweb-1002.apk
+或者扫描二维码下载
+
 
 3、使用第二步钱包注册成功的手机号，登录http://open.hicoin.one/，点击应用中心，点击创建应用，填写相关应用信息，包括应用名称、应用头像、IP白名单、授权域名、支付成功回调地址， 创建成功后，请等待管理员后台审核，审核通过及失败会收到短信或邮箱通知，审核通过可以查看AppID、secretKey、支付密钥等信息，以供登录授权、支付接口使用，审核失败可重新编辑再次提交等待管理员审核。
 
