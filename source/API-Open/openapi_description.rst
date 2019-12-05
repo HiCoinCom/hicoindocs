@@ -48,7 +48,7 @@ data             T          是          业务数据具体为以下输出参数
 -------------------
 
 :爆点授权账号: **appId**: 10021111111 **secretKey**: 7777777a513585204568c088f4d845d8
-:GC授权账号: **appId**: 10025555555 **secretKey**: 77732123513585204568c088f4d845d8
+:GC授权账号: **appId**: 10025555555 **secretKey**: 77732123513585204568c088f4drfrfd
 :支付密钥mchKey: 1566486321
 :授权支付域名: http://oauth.hicoin.one/api ，此项目接口需要用户授权token
 :商户打款域名: http://avenger.hicoin.one/api ，此项目接口需要基础授权token
