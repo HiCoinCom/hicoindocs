@@ -8,6 +8,7 @@
 钱包下载链接：
 http://hicoin-open-test.oss-cn-hangzhou.aliyuncs.com/dev-v2.3.2-open-legu-testweb-1002.apk   
 或者扫描二维码下载
+source/API-Open/images/HiCoin测试app下载.png
 
 
 3、使用第二步钱包注册成功的手机号，登录http://open.hicoin.one/，点击应用中心，点击创建应用，填写相关应用信息，包括应用名称、应用头像、IP白名单、授权域名、支付成功回调地址， 创建成功后，请等待管理员后台审核，审核通过及失败会收到短信或邮箱通知，审核通过可以查看AppID、secretKey、支付密钥等信息，以供登录授权、支付接口使用，审核失败可重新编辑再次提交等待管理员审核。
