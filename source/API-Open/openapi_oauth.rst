@@ -15,7 +15,8 @@
 --------------------------
 
 :说明: 第三方静默授权页面跳转页面，注意：此接口无需公共参数
-:页面访问地址: https://oauth.hicoin.vip/api/connect/oauth/authorize
+:页面访问地址: http://oauth.hicoin.one/api/connect/oauth/authorize  (测试环境)
+              https://oauth.hicoin.vip/api/connect/oauth/authorize (生产环境环境)
 :请求方式: GET
 :请求参数:
 
