@@ -1,7 +1,9 @@
 2 OAuth授权
 ====================
 
-:域名: https://oauth.hicoin.vip/api
+:域名: 
+测试环境： http://oauth.hicoin.one/api
+生产环境： https://oauth.hicoin.vip/api
 
 2.1 业务流程图
 -------------------
