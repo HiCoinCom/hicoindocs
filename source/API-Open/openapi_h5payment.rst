@@ -32,8 +32,8 @@ biz_content            string    是         业务请求参数的集合json
 ===================== ========== ========== =================================================
 参数名                 数据类型    是否必须    说明
 openid                 string    是         用户openid
-body                   string    是         订单说明
-subject                string    是         订单标题
+body                   string    是         订单说明    64字符
+subject                string    是         订单标题    32字符
 out_trade_no           string    是         第三方网站唯一订单号，32字符0-9A-Za-z
 total_amount           long      是         支付币种数量，所有币种使用8位精度，如1eth则传100000000
 settle_currency        string    是         支付币种大写，USDT
