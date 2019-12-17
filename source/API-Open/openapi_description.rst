@@ -14,6 +14,7 @@
 http://hicoin-open-test.oss-cn-hangzhou.aliyuncs.com/dev-v2.3.2-open-legu-testweb-1002.apk   
 或者扫描二维码下载:
 
+
 .. image:: images/HiCoin测试app下载.png
    :align: center
    
