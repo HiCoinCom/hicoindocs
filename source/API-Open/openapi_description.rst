@@ -16,6 +16,7 @@ http://hicoin-open-test.oss-cn-hangzhou.aliyuncs.com/dev-v2.3.2-open-legu-testwe
 
 .. image:: images/HiCoin测试app下载.png
    :align: center
+   
  
  2)生产环境：
  请直接跳到下面第3步，登录开放平台的生产环境 https://open.hicoin.com/，用手机号注册用户，创建应用，详情请见第3步。
