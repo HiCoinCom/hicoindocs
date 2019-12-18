@@ -16,7 +16,7 @@ V1.1    2019-08-17    钟鹏华  添加测试域名以及应用相关信息
 
 	1 接口描述<openapi_description>
   	2 OAuth授权<openapi_oauth>
-  	3 用户信息接口<openapi_user>
+  	3 用户信息与币种接口<openapi_user>
   	4 H5支付<openapi_h5payment>
   	5 商户给用户打款<openapi_merchant_payment>
   	6 附录<openapi_note>
