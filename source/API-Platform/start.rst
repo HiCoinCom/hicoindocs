@@ -20,7 +20,7 @@
 2. 注册开放者账号
 :::::::::::::::::::::::::::::::::::
 
-访问开放平台[参考`附录一 <http://docs.hicoin.vip/zh/latest/API-Platform/appendix_1.html>`_]，使用手机号或者邮箱注册开发者账号。值得注意的是，该账号今后也会用于管理应用对应的资金，因此在注册开发者账号时，请格外注意这一点。
+访问开放平台[参考 `附录一 <http://docs.hicoin.vip/zh/latest/API-Platform/appendix_1.html>`_ ]，使用手机号或者邮箱注册开发者账号。值得注意的是，该账号今后也会用于管理应用对应的资金，因此在注册开发者账号时，请格外注意这一点。
 
 .. image:: images/login.png
    :align: center
@@ -58,7 +58,7 @@
 
 4.2 使用开放平台开发工具
 ''''''''''''''''''''''''
-访问以下地址[参考`附录一 <http://docs.hicoin.vip/zh/latest/API-Platform/appendix_1.html>`_]，需要填写信息包括：1）AppId和SecretKey；2）4.1注册的测试账号；3）授权后重定向地址，与授权页面的参数redirect_uri一致。提交填写的内容之后，您的开发者账号和注册用户将得到一定量的KRIS币用于接下来的测试。下图展示了填写的相关内容：
+访问以下地址[参考 `附录一 <http://docs.hicoin.vip/zh/latest/API-Platform/appendix_1.html>`_ ]，需要填写信息包括：1）AppId和SecretKey；2）4.1注册的测试账号；3）授权后重定向地址，与授权页面的参数redirect_uri一致。提交填写的内容之后，您的开发者账号和注册用户将得到一定量的KRIS币用于接下来的测试。下图展示了填写的相关内容：
 
 .. image:: images/build_complete.png
    :align: center
