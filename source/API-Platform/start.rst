@@ -61,7 +61,7 @@
 访问以下地址[参考附录一]，需要填写信息包括：1）AppId和SecretKey；2）4.1注册的测试账号；3）授权后重定向地址，与授权页面的参数redirect_uri一致。提交填写的内容之后，您的开发者账号和注册用户将得到一定量的KRIS币用于接下来的测试。下图展示了填写的相关内容：
 
 .. image:: images/build_complete.png
-   :align: center´
+   :align: center
 
 
 4.3 在APP中验证
