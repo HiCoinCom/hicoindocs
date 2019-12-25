@@ -10,7 +10,7 @@
 3.2 测试环境
 ~~~~~~~~~~~~~~~~~~~~~~~~
 :域名: http://awstestopenapi.hicoin.one/ 
-:app_id: 16a9f17fc2ad61ca4339fdd6a8a37f21 
-:app_secret: 4dedb14fae76dae682de02e671eac408
+:app_id: baaceb1e506e1b5d7d1f0a3b1622583b 
+:app_secret: c46fba8fbff9fd622756647aae04b305
 
 
