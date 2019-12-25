@@ -62,7 +62,7 @@ sign                  string     是         返回数据签名
 ::::::::::::::::::::::::::::::::
 
 :说明: h5支付页面地址 ，浏览器直接HTTP 302
-:支付页面: https://XXX/hicoinfe/payment  【参考附录一】
+:支付页面: https://XXX/hicoinfe/payment  [参考`附录一 <http://docs.hicoin.vip/zh/latest/API-Platform/appendix_1.html>`_]
 :请求方式: GET
 :请求参数:
 

@@ -3,7 +3,7 @@
 
 1. 授权流程
 ::::::::::::::::
-如果您熟悉通用OAuth授权流程，那么接下来对接授权流程会相对容易。如果您了解并不是很深刻，建议您先阅读`相关文献<https://oauth.net/2/>`_，这将有助于您接来下的对接过程顺利进行。下图描述了平台授权的整个流程：
+如果您熟悉通用OAuth授权流程，那么接下来对接授权流程会相对容易。如果您了解并不是很深刻，建议您先阅读 `相关文献 <http://oauth.net/2/>`_ ，这将有助于您接来下的对接过程顺利进行。下图描述了平台授权的整个流程：
 
 .. image:: images/openapi_oauth_flow.png
    :width: 600px
@@ -24,7 +24,7 @@
 2.1 授权页面
 ''''''''''''''''
 :说明: 第三方静默授权页面，注意：此接口无需公共参数
-:页面地址: /api/connect/oauth/authorize [附录一_]
+:页面地址: /api/connect/oauth/authorize [ `附录一 <http://docs.hicoin.vip/zh/latest/API-Platform/appendix_1.html>`_ ]
 :请求参数:
 
 ===================== ========== ========== =================================================
@@ -55,7 +55,7 @@ wallet_redirect       string     是         无论直接打开还是做页面30
 2.2 授权code换取access_token与openid
 '''''''''''''''''''''''''''''''''''''''
 
-说明: 授权code换取token
+:说明: 授权code换取token
 :接口地址: /sns/oauth/access_token
 :请求方式: POST
 :请求参数:

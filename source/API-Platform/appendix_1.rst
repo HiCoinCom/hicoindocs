@@ -12,7 +12,7 @@
 
 生产环境: https://oauth.hicoin.vip/api/connect/oauth/authorize
 
-**3. 获取测试授权域名**
+**3. 开发平台工具地址**
 
 测试环境： http://oauth.hicoin.one/payMock/sandbox/tools
 

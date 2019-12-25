@@ -15,7 +15,7 @@
 - 参数名区分大小写;
 - 验证调用返回时，传送的 sign 参数不参与签名，将生成的签名与该 sign 值作校验。
 
-:第二步: 对 stringA 进行 md5，得到 sign 值 signValue 
+:第二步: 对 stringA 进行 md5，得到 sign 值 signValue
 
 **注**: 参与签名参数为，公共参数 + 接口参数
 
@@ -222,6 +222,3 @@ code	msg
 	    $str = implode("&", $stringBuffer);
 	    return md5($str.$secretKey);
 	}
-
-
-
