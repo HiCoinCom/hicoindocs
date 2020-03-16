@@ -22,5 +22,5 @@
 	2.13 批量获取充值记录<billing_depositList>
 	2.14 批量获取内部用户转账记录<billing_transferList>
 	2.15 批量获取系统转账记录<billing_systemTransferList>
-
-
+  2.16 用户提现异步回调通知<billing_notifyWithdraw>
+  2.17 用户充值异步回调通知<billing_notifyDeposit>
