@@ -29,7 +29,7 @@
 
 文档为钱包服务对第三方应用提供的接口。
 
-.. image:: images/apiopen-instructions.png
+.. image:: images/apiopen-instructions-v2.png
    :width: 470px
    :height: 153px
    :align: center
