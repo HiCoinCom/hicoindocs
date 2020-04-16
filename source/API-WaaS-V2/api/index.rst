@@ -12,11 +12,12 @@
 	2.3 查询用户信息<user_info>
   2.4 获取支持的币列表<user_getCoinList>
 	2.5 获取用户指定币账户<account_getByUidAndSymbol>
-	2.6 获取用户指定币账户地址<account_getDepositAddress>
-	2.7 提现操作<billing_withdraw>
-  2.8 同步提现记录<billing_syncWithdrawList>
-	2.9 批量获取提现记录<billing_withdrawList>
-	2.10 同步充值记录<billing_syncDepositList>
-	2.11 批量获取充值记录<billing_depositList>
-  2.12 用户提现异步回调通知<billing_notify>
-  2.13 提现二次确认接口<third_withdraw_confirm>
+  2.6 获取商户归集商户余额<account_getCompanyBySymbol>
+	2.7 获取用户指定币账户地址<account_getDepositAddress>
+	2.8 提现操作<billing_withdraw>
+  2.9 同步提现记录<billing_syncWithdrawList>
+	2.10 批量获取提现记录<billing_withdrawList>
+	2.11 同步充值记录<billing_syncDepositList>
+	2.12 批量获取充值记录<billing_depositList>
+  2.13 用户提现异步回调通知<billing_notify>
+  2.14 提现二次确认接口<third_withdraw_confirm>
