@@ -14,30 +14,58 @@ app_id	  String	   可选	          商户唯一表示
 data      String	   可选	          加密之后的字符串，解密之后的格式如下定义
 ========= ========== ============= ===================================================
 
+
 :请求参数data解密之后数据结构:
+
+注意：提现通知与充值通知的数据结构有差异：
+
+提现通知：
+
+===================== ========== ============= ==========================================================================================
+Param	                 类型        是否必须       说明
+time	                 long	       是           当前时间戳
+charset                String      是           编码格式，无特殊情况，传参数utf-8
+version                String      是           接口版本号，无特殊情况，传参数v2
+side                   String      是           通知类型， 充值通知：deposit， 提现通知： withdraw
+notify_time            String      是           通知时间
+request_id             String      是           提现请求ID，对应提现接口中的request_id
+id                     String      是           提现id
+uid                    String      是           提现用户id
+symbol                 String      是           币种
+amount                 String      是           提现金额
+withdraw_fee_symbol    String      是           提现手续费币种
+withdraw_fee           String      是           提现手续费
+fee_symbol             String      是           挖矿手续费币种
+real_fee               String      是           矿工费
+address_to             String      是           充值地址
+created_at             String      是           创建时间
+updated_at             String      是           修改时间
+txid                   String      是           区块链交易ID
+confirmations          String      是           区块链确认数
+status                 String      是           提现状态: 0 未审核，1 审核通过，2 审核拒绝，3 支付中已经打币，4 支付失败，5 已完成
+===================== ========== ============= ==========================================================================================
+
+充值通知：
 
 ===================== ========== ============= ===================================================
 Param	                 类型        是否必须       说明
-time	                 long	       必填	         当前时间戳
-charset                String      必填          编码格式，无特殊情况，传参数utf-8
-version                String      必填          接口版本号，无特殊情况，传参数v2
-side                   String      必填          充值通知类型：deposit， 提现类型： withdraw
-notify_time            string      必填          通知时间
-id                     string      必填          提现id
-uid                    string      必填          提现用户id
-symbol                 string      必填          币种
-amount                 string      必填          提现金额
-withdraw_fee_symbol    string      必填          提现手续费币种
-withdraw_fee           string      必填          提现手续费
-fee_symbol             string      必填          挖矿手续费币种
-real_fee               string      必填          矿工费
-address_to             string      必填          充值地址
-created_at             string      必填          创建时间
-updated_at             string      必填          修改时间
-txid                   string      必填          区块链交易ID
-confirmations          string      必填          区块链确认数
-status                 string      必填          提现状态: 0 未审核，1 审核通过，2 审核拒绝，3 支付中已经打币，4 支付失败，5 已完成，6 已撤销
+time	                 long	       是           当前时间戳
+charset                String      是           编码格式，无特殊情况，传参数utf-8
+version                String      是           接口版本号，无特殊情况，传参数v2
+side                   String      是           通知类型， 充值通知：deposit， 提现通知： withdraw
+notify_time            string      是           通知时间
+id                     string      是           充值id
+uid                    string      是           提现用户id
+symbol                 string      是           币种
+amount                 string      是           提现金额
+address_to             string      是           充值地址
+created_at             string      是           创建时间
+updated_at             string      是           修改时间
+txid                   string      是           区块链交易ID
+confirmations          string      是           区块链确认数
+status                 string      是           充值状态     0待确认，1 已完成，2 异常
 ===================== ========== ============= ===================================================
+
 
 
 :请求参数示例:
