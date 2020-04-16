@@ -8,7 +8,7 @@
    :caption: 目录:
 
 	2.1 用户手机注册<user_createUser>
-	2.2 用户邮箱注册<user_registerEmail>
+	2.2 用户邮箱(虚拟账号)注册<user_registerEmail>
 	2.3 查询用户信息<user_info>
   2.4 获取支持的币列表<user_getCoinList>
 	2.5 获取用户指定币账户<account_getByUidAndSymbol>
