@@ -12,7 +12,7 @@
 	2.3 查询用户信息<user_info>
   2.4 获取支持的币列表<user_getCoinList>
 	2.5 获取用户指定币账户<account_getByUidAndSymbol>
-  2.6 获取商户归集商户余额<account_getCompanyBySymbol>
+  2.6 获取商户归集账户余额<account_getCompanyBySymbol>
 	2.7 获取用户指定币账户地址<account_getDepositAddress>
 	2.8 提现操作<billing_withdraw>
   2.9 同步提现记录<billing_syncWithdrawList>
