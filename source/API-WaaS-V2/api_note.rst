@@ -21,10 +21,10 @@
 	 String originReqData = '{"charset":"utf-8","symbol":"eth","sign":"","time":"1586420916306","app_id":"baaceb1e506e1b5d7d1f0a3b1622583b","version":"2.0"}'
 
 	 // encryptByPrivate方法封装在下列公共类RSAHelper.java中
-	 String encryptReqData = base64urlsafe.encode( RSAHelper.encryptByPrivate(originReqData, "第三方自己的私钥")
+	 String encryptReqData = RSAHelper.encryptByPrivate(originReqData, "第三方自己的私钥")
 
 	 //http post
-	 String httpBuildParams = "appid=baaceb1e506e1b5d7d1f0a3b1622583b&data=" + encryptReqData
+	 String httpBuildParams = "app_id=baaceb1e506e1b5d7d1f0a3b1622583b&data=" + encryptReqData
 
 
 
@@ -38,7 +38,7 @@
 	// 解密响应数据
 	String encryptRespData = JSON.parse(originResp)['data']
 	// decryptByPublic 方法封装在下列公共类 RSAHelper.java中
-  String decryptRespData = RSAHelper.decryptByPublic( base64urlsafe.decode(encryptRespData), "托管平台提供的公钥" )
+  String decryptRespData = RSAHelper.decryptByPublic( encryptRespData, "托管平台提供的公钥" )
 
 
 :公共类RSAHelper.java:
