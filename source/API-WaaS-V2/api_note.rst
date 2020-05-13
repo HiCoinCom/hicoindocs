@@ -9,7 +9,7 @@
 
 *注意事项*
 
-1）base64urlsafe将普通base64的 +/ 替换成了 _-
+1）base64传统编码中会出现+, /两个会被url直接转义的符号，因此如果希望通过url传输这些编码字符串，我们需要先做传统base64编码，随后将+和/分别替换为- _两个字符，在接收端则做相反的动作解码
 
 2）rsa加密与解密使用分段加密
 
@@ -210,6 +210,151 @@
 		}
 
   }
+
+
+:PHP签名Demo:
+
+::
+
+	<?php
+		class RSA
+		{
+
+			//第三方私钥
+		    public $pri_key = 'MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQD6YNILWOJZjS6FQQ9ZL9CEKcWZTTldrDLsxP2dQME7hSUTDQ5AosBUZk18Uq212SC2+L0UA9G6WPoCNzHCB8TP25jC+EwIkHMN4EEPRs+bEHUgX3Bq3oR2SCHjEiqleTFW2kO/oS6Vg9bhTST5MFaEnA0fc2Bh3+4iRus+5mVc6ux0lG55f1qmvUNM4hhP7qVpzc3X0xFA0Slu8dyel1dbOUQlJbUkrt5NzXXqmRoP5UVHUCXPZzH1kbxdbGA58TonXceh6DHQRa6pIBNaQ6BfnqhMvGVvuIqKPrdWq8yigvTw2zqBfwCwY3/3FZoI5ICQ8oS3GRHYP/rXzncqkKTzAgMBAAECggEAdag77EMnkueKXeo12TZj6Udr6N9mPsOl5qenelcsttiZlHtFIFCays6MSQjdQqA3BGSdDaPB0azwR0xCoKhf70GFZtGhgUDIIFQqnpArDPZN5BmVTVMlsiOxcPBfhAUQj3zf61RF/NLIjnVfE46IiaZ/cDEasMO3NvpWn+dK6L86zklgwHfC5IXTFnFRVA3bWkAQ3gswhLzjs50HNoNV96fsnbt1n7NSWhyz9B8hGMV+qYz1NGmb+VsaAune+oIv28krcaqf+Doah37rCmzEgVeZZ1/flPFOXpaq1eGJDgbLu6FbbgqfabCBlhmuzuwNbDl/2T/U9U6JoQWGR7t++QKBgQD8XSzBqpWwz8ebfsPipvnhIugbHgBnwLaRc3/xieuNuiDMsYPY1isBWSeYqjwV5uTad9s9dRxb6OOMH+KChkUxkYhEvoujUulGSuO4MxJlWl99WWEsbLzefubBD0zyHo5daHbPPXO8UPMu/SfiYxT2D5wsW2/swUqHWS3AmDS9RQKBgQD9/FJC/++DLyhU60Q9vrVY50zQTyPLtPnuIxbsPXB1Exo1wKe+LC02k9Cub9f5EFViTEniWRasB7ecnDxJT/ISU+hJjMUKFuaHueb7dO6wiIqyfpJeQM/4fKalBQI+nCEh3aceNKP44mk/lv2x22+P47EAKh7yqBdEVUv5GlHw1wKBgQCbAqReJOijXU0vLtMlYgj0h9tn5Kq9D/tUJky9UUkVmfFRqevhgdOSlW+j71TO4y9JHfvVqRyNO+ShCmi4Yb8Yrlq0VxIwdNoCqjdryjsPdE5ZEVCF2Bi+1dXpWfuacLhjman4q7duQY7OGwOno9KZPYdhG50JIMUlk9pthVBHvQKBgCXUC+iAuAqg3m/vboWHvvjT0mQANYOkm8j1HvfmmrZFNxUkcZdoev9y+pTQgalN3nm6hRKaVD8hEx7XQj9lEdfa+XDi74H2MTWr4ZQ4MUjHvWiiY2h4XMFUx3kyisgKdwDVQ4vDKVzrU+OtuHFiDnau4fD1VRCtKnH6Bku+uM+XAoGAB7V/OFlk7gaX7gne7p+DypXICn1oGE46aFLsDciOyePNovYg6bfdiUB9evwFSijiHq7eldZIQSRIdUalL1qfv2zDwFmEGpSd/RZYOOv21c3eISjln6W7ZGtumtLHx2nGpC072i5vNee0aAPEdvO0h3y4gvzad5L4KwIwyHifKic=';
+
+			//钱包给的公钥
+		    public $pub_key = 'MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAua4XMw/W9BxyZhirTlNau5Y/tdAHkPsbZo58Cdz1ByeRX8RwOibpREDZLTwhMTZGroqWEAZ+efQhx0gez++03Sw6IsPWPDpzpM90ezn2gBqPog7jxQA+M0E32gMHWB5ygplPwQkGz/qGYeJ5qhp2OZ8O+jFqOJNi7ob1hE2QsPT118HIhUzTL77urD61BovI+jg9Rx6PGAqlFLLmfXToqDulLkYVKhhQlL7ii6iuzIXgl46mbmvH2RXJRq083sa9b9J1z/WzXxNaHNpq5USl3ifTTyD/IiOKnblA7f4KJmr9rcMFbAP1mNxz95at6hPBvqGypPqqixxPBrdkOIPUVwIDAQAB';
+
+			public function __construct() {
+
+		        if (!is_null($this->pub_key)) {
+		            $this->pub_key = openssl_pkey_get_public($this->formatterPublicKey($this->pub_key));
+		        }
+
+		        if (!is_null($this->pri_key)) {
+		            $this->pri_key = openssl_pkey_get_private($this->formatterPrivateKey($this->pri_key));
+		        }
+
+		    }
+
+
+			 /**
+		     * 格式化公钥
+		     * @param $publicKey string 公钥
+		     * @return string
+		     */
+		    public function formatterPublicKey($publicKey)
+		    {
+		        if (false !== strpos($publicKey, '-----BEGIN PUBLIC KEY-----')) return $publicKey;
+
+		        $str = chunk_split($publicKey, 64, PHP_EOL);//在每一个64字符后加一个\n
+		        $publicKey = "-----BEGIN PUBLIC KEY-----".PHP_EOL.$str."-----END PUBLIC KEY-----";
+
+		        return $publicKey;
+		    }
+
+		    /**
+		     * 格式化私钥
+		     * @param $privateKey string 公钥
+		     * @return string
+		     */
+		    public function formatterPrivateKey($privateKey)
+		    {
+		        if (false !==strpos($privateKey, '-----BEGIN RSA PRIVATE KEY-----')) return $privateKey;
+
+		        $str = chunk_split($privateKey, 64, PHP_EOL);//在每一个64字符后加一个\n
+		        $privateKey = "-----BEGIN RSA PRIVATE KEY-----".PHP_EOL.$str."-----END RSA PRIVATE KEY-----";
+
+		        return $privateKey;
+		    }
+
+			/**
+		     * URL base64解码
+		     * '-' -> '+'
+		     * '_' -> '/'
+		     * 字符串长度%4的余数，补'='
+		     * @param unknown $string
+		     */
+		  function urlsafe_b64decode($string) {
+		        $data = str_replace(array('-','_'),array('+','/'),$string);
+		        $mod4 = strlen($data) % 4;
+		        if ($mod4) {
+		            $data .= substr('====', $mod4);
+		        }
+		        return base64_decode($data);
+		    }
+
+		    /**
+		     * URL base64编码
+		     * '+' -> '-'
+		     * '/' -> '_'
+		     * '=' -> ''
+		     * @param unknown $string
+		     */
+		    function urlsafe_b64encode($string) {
+		        $data = base64_encode($string);
+		        $data = str_replace(array('+','/','='),array('-','_',''),$data);
+		        return $data;
+		    }
+
+
+		    /**
+		     *  私钥加密（分段加密）
+		     *  emptyStr    需要加密字符串
+		     */
+		    public function encrypt($str) {
+		        $crypted = array();
+		//        $data = json_encode($str);
+		        $data = $str;
+		        $dataArray = str_split($data, 234);
+		        foreach($dataArray as $subData){
+		            $subCrypted = null;
+		            openssl_private_encrypt($subData, $subCrypted, $this->pri_key);
+		            $crypted[] = $subCrypted;
+		        }
+		        $crypted = implode('',$crypted);
+		        return $this->urlsafe_b64encode($crypted);
+		    }
+
+		    /**
+		     *  公钥解密（分段解密）
+		     *  @encrypstr  加密字符串
+		     */
+		    public function decrypt($encryptstr) {
+		        // echo $encryptstr;exit;
+		        $encryptstr = $this->urlsafe_b64decode($encryptstr);
+		        $decrypted = array();
+		        $dataArray = str_split($encryptstr, 256);
+
+		        foreach($dataArray as $subData){
+		            $subDecrypted = null;
+		            openssl_public_decrypt($subData, $subDecrypted, $this->pub_key);
+		            $decrypted[] = $subDecrypted;
+		        }
+		        $decrypted = implode('',$decrypted);
+		        // openssl_public_decrypt(base64_decode($encryptstr),$decryptstr,$this->pub_key);
+		        return $decrypted;
+		    }
+
+		}
+		$rsa = new RSA();
+		$params = '{"charset":"utf-8","country":"+86","sign":"","mobile":"","time":"1589013592078","app_id":"baaceb1e506e1b5d7d1f0a3b1622583b","version":"2.0","email":"test123@qq.com"}';
+
+		//加密参数
+		$encryptParamsByPriv = $rsa->encrypt($params);
+
+		//请求接口
+		$resp = file_get_contents('http://awstestopenapi.hicoin.one/api/v2/user/info?app_id=baaceb1e506e1b5d7d1f0a3b1622583b&data='.$encryptParamsByPriv);
+
+		$resp = json_decode($resp, true)['data'];
+		//解密接口返回
+		echo "get user info api:", $rsa->decrypt($resp);
+
+
+
+
+
 
 
 附 2:接口错误码表
