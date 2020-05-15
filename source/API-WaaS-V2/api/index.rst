@@ -19,5 +19,5 @@
 	2.10 批量获取提现记录<billing_withdrawList>
 	2.11 同步充值记录<billing_syncDepositList>
 	2.12 批量获取充值记录<billing_depositList>
-  2.13 用户提现异步回调通知<billing_notify>
+  2.13 用户提现和充值异步回调通知<billing_notify>
   2.14 提现二次确认接口<third_withdraw_confirm>
