@@ -62,8 +62,8 @@ withdraw_fee_symbol   String     必填        提现手续费币种
 withdraw_fee          String     必填        提现手续费
 fee_symbol            String     必填        挖矿手续费币种
 real_fee              String     必填        矿工费
-created_at            String     必填        创建时间,
-updated_at            String     必填        修改时间
+created_at            Long       必填        创建时间,
+updated_at            Long       必填        修改时间
 address_from          String     必填        来源地址
 address_to            String     必填        到账地址
 txid                  String     必填        区块链交易ID
