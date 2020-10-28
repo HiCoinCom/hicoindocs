@@ -9,7 +9,7 @@
 
 ========= ========== ============= ===================================================
 Param	    类型        是否必须       说明
-app_id	  String	   可选	          商户唯一表示
+app_id	  String	   可选	          商户唯一标识
 data      String	   可选	          加密之后的字符串，解密之后的格式如下定义
 ========= ========== ============= ===================================================
 
@@ -55,8 +55,8 @@ id               int        必填       充值唯一id
 uid              int        必填       充值 用户id
 symbol           String     必填       币种
 amount           String     必填       充值金额
-created_at       String     必填       创建时间,
-updated_at       String     必填       修改时间
+created_at       Long       必填       创建时间,时间戳
+updated_at       Long       必填       修改时间，时间戳
 txid             String     必填       区块链交易ID
 confirmations    int        必填       区块链确认数
 address_to       String     必填       充值到帐地址
