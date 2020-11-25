@@ -39,6 +39,14 @@
 
 2）钱包公钥：rsa_wallet_pub。
 
+:RSA 公私钥生成地址: 
+
+http://www.metools.info/code/c80.html
+
+推荐密码长度：2048
+
+推荐密钥格式：PKCS#8
+
 
 1.3 接口交互过程
 -------------------
