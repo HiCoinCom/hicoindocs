@@ -4,9 +4,6 @@
 
 附 1:加解密方式
 ~~~~~~~~~~~~~~~~~~~~~~~~
+ Java 加解密Demo ： https://github.com/HiCoinCom/WAPIDemo.git
 
-
-
-附 2:接口错误码表
-~~~~~~~~~~~~~~~~~~~~~~~~
 
