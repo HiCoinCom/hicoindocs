@@ -14,3 +14,4 @@
 	3.4 提现拉取接口<withdraw_consume>
 	3.5 提现通知接口<withdraw_notify>
 	3.6 内部通知接口<internal_notify>
+	3.7 提币打回接口<withdraw_cancel>
