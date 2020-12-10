@@ -1,5 +1,5 @@
 
-4 附录
+3 附录
 ==========
 
 附 1:加解密方式
@@ -47,7 +47,7 @@
 
 ::
 
-	
+
 	import java.io.ByteArrayOutputStream;
 	import java.security.Key;
 	import java.security.KeyFactory;
@@ -202,10 +202,10 @@
 	            }
 	            return "";
 	    }
-	    
+
 	    /**
 	     * BASE64Encoder 加密
-	     * 
+	     *
 	     * @param data
 	     *            要加密的数据
 	     * @return 加密后的字符串
@@ -225,7 +225,7 @@
 	    }
 	    /**
 	     * BASE64Decoder 解密
-	     * 
+	     *
 	     * @param data
 	     *            要解密的字符串
 	     * @return 解密后的byte[]
@@ -237,7 +237,7 @@
 	        // byte[] buffer = decoder.decodeBuffer(data);
 	        // 从JKD 9开始rt.jar包已废除，从JDK 1.8开始使用java.util.Base64.Decoder
 	        Decoder decoder = Base64.getDecoder();
-	        
+
 	        //不管使用什么环境，下面的-_替换成+/都需要完成。
 	        String base64Str = data.replace('-', '+');
 	        base64Str = base64Str.replace('_', '/');
@@ -245,7 +245,7 @@
 	        if(mod4 > 0){
 	            base64Str = base64Str + "====".substring(mod4);
 	        }
-	        
+
 	        byte[] buffer = decoder.decode(base64Str);
 	        return buffer;
 	    }
