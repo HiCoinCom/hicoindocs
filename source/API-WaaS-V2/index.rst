@@ -6,10 +6,11 @@
 
 
 .. toctree::
-   :maxdepth: 4
+   :maxdepth: 3
    :caption: 目录:
 
   一、概述<api_introduce>
   二、接入指引<api_plan>
   三、对接方案<api_tsolution>
-  四、开发文档<api_apidocs>
+  四、开发前准备<api_setout>
+  五、API文档<api_apidocs>
