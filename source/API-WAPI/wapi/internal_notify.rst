@@ -39,6 +39,6 @@ memo            string       否            to地址memo标识
 Param      类型     是否必须   说明
 code      int	    是	      状态码
 msg       string    是        状态信息
-data	  string	是	      使用甲方公钥对请求数据的加密
-sign	  string	是	      使用乙方对请求数据明文MD5后的签名
+data	  string	是	      使用甲方公钥对返回数据的加密
+sign	  string	是	      使用乙方私钥对返回数据明文MD5后的签名
 ========= ======= ========== ===================================================
