@@ -27,7 +27,7 @@
 
 1）主链监测到地址有充币交易
 
-2）发起充值通知，通知baas系统
+2）发起充值通知，通知BaaS系统
 
 3）返回充值结果
 
@@ -38,9 +38,9 @@
 
 1）用户在交易系统发起提币
 
-2）主链监测到提币请求，请求baas系统接口
+2）主链监测到提币请求，请求BaaS系统接口
 
-3）Baas返回提币结果
+3）BaaS返回提币结果
 
 4）如遇特殊情况可撤销提币
 
@@ -50,7 +50,7 @@
 -------------------
 
 
-.. image:: images/wapi-interact-process.png
+.. image:: images/wapi_interact_process.png
    :width: 600px
    :align: center
 

@@ -12,6 +12,7 @@
 
 	1 前期准备<wapi_description>
 	2 域名及API密钥<wapi_domain_secret>
-	3 接口文档<wapi/index>
-	4 附录<wapi_note>
-	5 常见问题(FQA)<wapi_fqa>
+	3 对接方案<api_tsolution>
+    4 接口文档<wapi/index>
+	5 附录<wapi_note>
+	6 常见问题(FQA)<wapi_fqa>
