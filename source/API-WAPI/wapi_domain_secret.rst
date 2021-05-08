@@ -5,7 +5,7 @@
 
 2.1 生产环境
 ~~~~~~~~~~~~~~~~~~~~~~~~
-:域名: https://wapi.waas.group
+:域名: https://baas.waas.group
 :app_id: 待分配
 :rsa_wallet_pub: 待分配
 
