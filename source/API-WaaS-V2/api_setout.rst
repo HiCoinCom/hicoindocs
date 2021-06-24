@@ -8,4 +8,4 @@
 
 	1 前期准备<api_description>
   2 附录<api_note>
-  3 常见问题(FQA)<api_fqa>
+  3 常见问题(FAQ)<api_fqa>
