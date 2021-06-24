@@ -18,4 +18,4 @@ HiCoin 使用文档
    托管(Custody) WAPI文档<API-WAPI/index>
    开放平台文档[new]<API-Platform/home>
    文档中心<Documents/index>
-   常见问题(FQA)<FQA/index>
+   常见问题(FAQ)<FAQ/index>
