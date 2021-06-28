@@ -3,7 +3,7 @@
 
 您需要按照以下流程进行接入WaaS联盟
 
-.. image:: images/jieruzhiyinV2.png
+.. image:: images/jieruzhiyin2.png
    :width: 800px
    :align: center
 
