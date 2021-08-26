@@ -27,35 +27,35 @@
 
 1.2 注册HiCoin账号
 ~~~~~~~~~~~~~~~~~~~
-打开【HiCoin】应用，注册【云端钱包】账号（未注册账号登录即注册），支持邮箱与手机号两种方式
+打开【HiCoin】应用，注册账号（未注册账号登录即注册），支持邮箱与手机号两种方式
 
-.. image:: images/api_plan_zhucezhanghao.jpg
+.. image:: images/api_plan_zhucezhanghao3.png
    :width: 180px
    :align: center
 
 
 
-.. image:: images/api_plan_zhucezhanghao2.jpg
+.. image:: images/api_plan_zhucezhanghao4.png
    :width: 180px
    :align: center
 
 
 1.3 完成身份认证
 ~~~~~~~~~~~~~~~~~~~
-点击云端钱包-【设置】，进入设置页面
+打开个人中心-【未认证】，进入身份认证页面
 
-.. image:: images/api_plan_shezhi1.png
+.. image:: images/api_plan_shezhi3.png
    :width: 180px
    :align: center
 
 
-.. image:: images/api_plan_shezhi2.png
+.. image:: images/api_plan_shezhi4.png
    :width: 180px
    :align: center
 
-完成【安全等级】、【谷歌身份认证器】（安全等级2需要平台审核，您可以联系项目经理或客服快速审核）
+完成【身份等级认证】、【谷歌验证】（安全等级2需要平台审核，您可以联系项目经理或客服快速审核）
 
-.. image:: images/api_plan_shimingrenzheng.png
+.. image:: images/api_plan_shimingrenzheng2.png
    :width: 180px
    :align: center
 
