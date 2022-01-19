@@ -177,7 +177,7 @@ data      String	   可选	          加密之后的字符串，解密之后的�
 Param     类型     是否必须     说明
 time      long    必填        当前时间戳
 charset   String  必填        编码格式，无特殊情况，传参数utf-8
-vesion    String  必填        接口版本号，无特殊情况，传参数v2
+version    String  必填        接口版本号，无特殊情况，传参数v2
 uid       String  必填	      用户ID
 symbol    String  必填	      币种
 ========= ======= ========== ===================================================
