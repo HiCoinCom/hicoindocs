@@ -10,10 +10,6 @@ HiCoin 使用文档
    :maxdepth: 3
    :caption: 目录:
 
-   HiCoin概述<Introduction/index>
-   功能概述<Functions/index>
-   技术构架概述<Technology/index>
-   对接流程<DeliveryProcess/index>
    托管(Custody) WaaS 开发文档V2<API-WaaS-V2/index>
    托管(Custody) WAPI文档<API-WAPI/index>
-   常见问题(FAQ)<FAQ/index>
+ 
