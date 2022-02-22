@@ -133,7 +133,7 @@ data      String     否             具体响应数据，数据结构定义如�
 
 ====================== ======= =========== ====================================================
 Param                  类型     是否必须      说明
-symbol                 String  是           币种
+symbol                 String  是           币种（调用提币的接口，及任何查询接口时务必使用此字段返回的值）
 icon                   String  是           币种icon
 real_symbol            String  是           币种链上名称
 decimals	       String  是           精度
