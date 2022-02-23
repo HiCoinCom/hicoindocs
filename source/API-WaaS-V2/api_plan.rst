@@ -11,7 +11,7 @@
 1.创建账号
 -------------------
 
-1.1 下载HiCoin钱包
+1.1 下载TopValue钱包
 ~~~~~~~~~~~~~~~~~~~
 
 方式一：手机浏览器打开链接：https://www.hicoin.com/appDownload?locale=zh-CN
@@ -25,9 +25,9 @@
 
 
 
-1.2 注册HiCoin账号
+1.2 注册TopValue账号
 ~~~~~~~~~~~~~~~~~~~
-打开【HiCoin】应用，注册账号（未注册账号登录即注册），支持邮箱与手机号两种方式
+打开【TopValue】应用，注册账号（未注册账号登录即注册），支持邮箱与手机号两种方式
 
 .. image:: images/api_plan_zhucezhanghao3.png
    :width: 180px
