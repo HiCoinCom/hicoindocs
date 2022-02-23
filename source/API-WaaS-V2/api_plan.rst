@@ -65,7 +65,7 @@
 2.1 登录WaaS平台
 ~~~~~~~~~~~~~~~~~~~
 
-浏览器打开WaaS平台（waas.chainup.com 或 custody.chainup.com），使用【HiCoin】应用，首页或云端钱包【扫码】功能扫描二维码登录
+浏览器打开WaaS平台（waas.chainup.com 或 custody.chainup.com），使用【TopValue】应用，首页或云端钱包【扫码】功能扫描二维码登录
 
 .. image:: images/api_plan_saomadenglu.jpg
    :width: 800px
