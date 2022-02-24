@@ -14,11 +14,11 @@
 1.1 下载TopValue钱包
 ~~~~~~~~~~~~~~~~~~~
 
-方式一：手机浏览器打开链接：https://www.hicoin.com/appDownload?locale=zh-CN
+方式一：手机浏览器打开链接：https://custody.chainup.com/appDownload/
 
 方式二：使用微信扫码打开链接下载：
 
-.. image:: images/QR.jpg
+.. image:: images/QR.png
    :width: 200px
    :align: center
 
