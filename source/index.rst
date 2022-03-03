@@ -10,6 +10,6 @@ TopValue 使用文档
    :maxdepth: 3
    :caption: 目录:
 
-   托管(Custody) WaaS 开发文档V2<API-WaaS-V2/index>
+   托管(Custody) 开发文档V2<API-WaaS-V2/index>
    托管(Custody) WAPI文档<API-WAPI/index>
  
