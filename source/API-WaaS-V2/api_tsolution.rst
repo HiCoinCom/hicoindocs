@@ -96,7 +96,7 @@
 
 3）客户系统订单与Custody系统内的订单做比对
 
-4）若订单数量、金额、状态等无误则对账成功；否则对账异常，联系WaaS技术人员协助处理
+4）若订单数量、金额、状态等无误则对账成功；否则对账异常，联系ChainUP Custody技术人员协助处理
 
 
 .. image:: images/api_tsoulution_duizhang.png
