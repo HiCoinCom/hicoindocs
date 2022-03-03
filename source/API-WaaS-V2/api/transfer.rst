@@ -2,10 +2,10 @@
 ======================
 
 
-WaaS商户转账
+Custody商户转账
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-:说明: WaaS内部商户互相转账
+:说明: Custody内部商户互相转账
 :接口地址: /api/v2/account/transfer
 :请求方式: POST
 :请求参数:
@@ -25,7 +25,7 @@ time          Long        必填           当前时间戳
 charset       String      必填           编码格式，无特殊情况，传参数utf-8
 version       String      必填           接口版本号，无特殊情况，传参数v2
 request_id    String      必填           请求唯一标识，最多支持64位
-symbol        String      必填           转账币种，WaaS获取币种名称
+symbol        String      必填           转账币种，Custody获取币种名称
 amount        String      必填           转账数量，包含转账手续费
 to            String      必填           转入商户，目前填写商户APPID
 remark        String      选填           备注字段
