@@ -25,7 +25,7 @@ charset      String  必填           编码格式，无特殊情况，传参数
 version      String  必填           接口版本号，无特殊情况，传参数v2
 request_id   String  必填           请求唯一标识，最多支持64位
 from_uid     String  必填           转出用户ID
-to_address   String  必填           转入用户地址，memo类型，使用"_"进行拼接，如: waaswaaseos_24545
+to_address   String  必填           转入用户地址，memo类型，使用"_"进行拼接，如: eos_24545
 amount       String  必填           提现金额，包含提现手续费；手续费需要在商户后台配置
 symbol       String  必填           提现币种
 ============ ======= ============= ===========================================================
