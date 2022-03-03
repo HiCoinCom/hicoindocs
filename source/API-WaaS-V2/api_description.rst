@@ -7,7 +7,7 @@
 1）开发方式
 ~~~~~~~~~~~~~~~~~~~
 
-为满足客户多样性的业务需求，WaaS支持两种对接方式：SDK与API；
+为满足客户多样性的业务需求，ChainUP Custody支持两种对接方式：SDK与API；
 
 **SDK**：支持java与PHP
 
@@ -37,9 +37,9 @@ PHP SDK地址：https://github.com/HiCoinCom/php-sdk
 
 :生产环境域名(不支持测试环境): https://openapi.hicoin.vip
 :app_id: 请创建钱包后获取
-:rsa_wallet_pub: WaaS系统公钥；请创建钱包后从WaaS系统获取
+:rsa_wallet_pub: Custody系统公钥；请创建钱包后从Custody系统获取
 :rsa_third_prv: 客户私钥；自主生成、保存
-:rsa_third_pub: 客户公钥；自主生成；请创建钱包后配置到WaaS系统
+:rsa_third_pub: 客户公钥；自主生成；请创建钱包后配置到Custody系统
 
 **RSA 公私钥生成地址**
 http://www.metools.info/code/c80.html
