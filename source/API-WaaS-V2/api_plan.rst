@@ -1,7 +1,7 @@
 二、接入指引
 ====================
 
-您需要按照以下流程进行接入WaaS联盟
+您需要按照以下流程进行接入ChainUP Custody
 
 .. image:: images/jieruzhiyin2.png
    :width: 800px
@@ -62,10 +62,10 @@
 2.创建并配置企业钱包
 -------------------
 
-2.1 登录WaaS平台
+2.1 登录ChainUP Custody平台
 ~~~~~~~~~~~~~~~~~~~
 
-浏览器打开WaaS平台（waas.chainup.com 或 custody.chainup.com），使用【TopValue】应用，首页或云端钱包【扫码】功能扫描二维码登录
+浏览器打开ChainUP Custody平台（waas.chainup.com 或 custody.chainup.com），使用【TopValue】应用，首页或云端钱包【扫码】功能扫描二维码登录
 
 .. image:: images/api_plan_saomadenglu.jpg
    :width: 800px
@@ -75,7 +75,7 @@
 2.2 创建钱包
 ~~~~~~~~~~~~~~~~~~~
 
-进入【WaaS联盟】页面，创建钱包（钱包名称不支持修改，请谨慎填写）
+进入【ChainUP Custody】页面，创建钱包（钱包名称不支持修改，请谨慎填写）
 
 .. image:: images/api_plan_chuangjianqianbao1.jpg
    :width: 800px
