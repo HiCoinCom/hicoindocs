@@ -11,7 +11,7 @@
 
 2.2 测试环境
 ~~~~~~~~~~~~~~~~~~~~~~~~
-:域名: http://baas.hiwallet.pro
+:域名: http://baas.cacheily.com
 :app_id: 8ee3794a7e5bd188c6af4fd7dda191f3
 :rsa_third_pub:
 
