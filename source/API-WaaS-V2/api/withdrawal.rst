@@ -275,14 +275,14 @@ withdraw_fee_symbol   String     必填       提现手续费币种
 withdraw_fee          String     必填       提现手续费
 fee_symbol            String     必填       挖矿手续费币种
 real_fee              String     必填       矿工费
-created_at            Long       必填       创建时间,
+created_at            Long       必填       创建时间
 updated_at            Long       必填       修改时间
 address_from          String     必填       来源地址
 address_to            String     必填       到账地址
 txid                  String     必填       区块链交易ID
 confirmations         int        必填       区块链确认数
-saas_status           int        必填       平台审核状态
-company_status        int        必填       商户审核状态
+saas_status           int        必填       平台审核状态:0 未审核，1 已审核，2 审核拒绝
+company_status        int        必填       商户审核状态:0 未审核，1 已审核，2 审核拒绝
 status                int        必填       提现状态: 0 未审核，1 审核通过，2 审核拒绝，3 支付中已经打币，4 支付失败，5 已完成，6 已撤销
 ===================== ========= ========== =============================================================================================================
 
