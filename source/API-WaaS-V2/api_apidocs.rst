@@ -9,6 +9,8 @@ java SDK地址：https://github.com/HiCoinCom/java-sdk
 
 PHP SDK地址：https://github.com/HiCoinCom/php-sdk
 
+node SDK地址：https://github.com/HiCoinCom/js-sdk
+
 **API**：请查看API接口
 
 .. toctree::
