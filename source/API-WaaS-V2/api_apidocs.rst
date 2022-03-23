@@ -3,7 +3,7 @@
 
 为满足客户多样性的业务需求，ChainUP Custody支持两种对接方式：SDK与API；
 
-**SDK**：支持java与PHP
+**SDK**：支持java、PHP和node
 
 java SDK地址：https://github.com/HiCoinCom/java-sdk
 
