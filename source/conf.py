@@ -17,7 +17,7 @@ import sphinx_rtd_theme
 
 # -- Project information -----------------------------------------------------
 
-project = 'HiCoin'
+project = 'ChainUP Custody'
 copyright = '2019, Kris Lee'
 author = 'Kris Lee'
 
