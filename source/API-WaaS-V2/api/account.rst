@@ -140,7 +140,8 @@ decimals	       String  是           精度
 name                   string  是	   币种全称
 base_symbol	       string  是	   主链币币名
 contract_address       string  是           合约地址
-deposit_confirmation   string  是	   币种充值确认数
+deposit_confirmation   string  是           币种充值确认数
+explorer               string  是           区块浏览器 
 support_memo  	       string  是           是否支持memo，0不支持1支持       
 support_token          string  是           是否支持token币，0不支持1支持,主链币才有值,代币为空
 ====================== ======= =========== ====================================================
