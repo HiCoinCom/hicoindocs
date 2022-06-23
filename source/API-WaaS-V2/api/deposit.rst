@@ -68,7 +68,7 @@ updated_at            Long       必填         修改时间
 txid                  String     必填         区块链交易ID
 confirmations         int        必填         区块链确认数
 address_to            String     必填         充值到帐地址
-status                int        必填         0待确认，1 已完成，2 异常
+status                int        必填         0待确认，1 成功，2 失败，4 待KYT验证，5 待人工审核(KYT风险等级过高)，6 待人工审核(KYT充值熔断)
 ===================== ========== =========== =================================================
 
 
@@ -198,7 +198,7 @@ updated_at       Long       必填       修改时间，时间戳
 txid             String     必填       区块链交易ID
 confirmations    int        必填       区块链确认数
 address_to       String     必填       充值到帐地址
-status           int        必填       0待确认，1 已完成，2 异常
+status           int        必填       0待确认，1 成功，2 失败，4 待KYT验证，5 待人工审核(KYT风险等级过高)，6 待人工审核(KYT充值熔断)
 =============== ========= ========== ====================================================
 
 
@@ -284,7 +284,7 @@ created_at             string      是           创建时间
 updated_at             string      是           修改时间
 txid                   string      是           区块链交易ID
 confirmations          string      是           区块链确认数
-status                 string      是           充值状态     0待确认，1 已完成，2 异常
+status                 string      是           充值状态     0待确认，1 成功，2 失败，4 待KYT验证，5 待人工审核(KYT风险等级过高)，6 待人工审核(KYT充值熔断)
 ===================== ========== ============= ===================================================
 
 
@@ -366,7 +366,7 @@ created_at         Long        是             创建时间
 updated_at         Long        是             修改时间
 txid               String      是             区块链交易ID
 confirmations      int         是             区块链确认数
-status             int         是             0 待确认，1 已完成，2 异常
+status             int         是             0待确认，1 成功，2 失败，4 待KYT验证，5 待人工审核(KYT风险等级过高)，6 待人工审核(KYT充值熔断)
 address_to         String      是             充值到账地址
 address_from       String      是             充值发送地址
 txid_type          String      是             0 链上交易，1 联盟转账交易
