@@ -177,9 +177,9 @@ support_token          string  是           是否支持token币，0不支持1�
             "address_tag_regex":"",
             "support_memo":"0",
             "support_token":"0"
-	    
-  }
-
+        }	    
+    ]
+}
 
 
 
