@@ -16,7 +16,7 @@
 
 方式一：手机浏览器打开链接：https://custody.chainup.com/appDownload/
 
-方式二：使用微信扫码打开链接下载：
+方式二：使用手机扫码打开链接下载：
 
 .. image:: images/QR.png
    :width: 200px
@@ -53,7 +53,7 @@
    :width: 180px
    :align: center
 
-完成【身份等级认证】、【谷歌验证】（安全等级2需要平台审核，您可以联系项目经理或客服快速审核）
+完成【身份认证】、【谷歌验证】（身份认证需要平台审核，您可以联系项目经理或客服快速审核）
 
 .. image:: images/api_plan_shimingrenzheng2.png
    :width: 180px
