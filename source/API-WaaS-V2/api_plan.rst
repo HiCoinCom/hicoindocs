@@ -1,7 +1,7 @@
 二、接入指引
 ====================
 
-您需要按照以下流程进行接入ChainUP Custody
+您需要按照以下流程进行接入ChainUp Custody
 
 .. image:: images/jieruzhiyin2.png
    :width: 800px
@@ -11,7 +11,7 @@
 1.创建账号
 -------------------
 
-1.1 下载TopValue钱包
+1.1 下载Custody钱包
 ~~~~~~~~~~~~~~~~~~~
 
 方式一：手机浏览器打开链接：https://custody.chainup.com/appDownload/
@@ -25,9 +25,9 @@
 
 
 
-1.2 注册TopValue账号
+1.2 注册Custody账号
 ~~~~~~~~~~~~~~~~~~~
-打开【TopValue】应用，注册账号（未注册账号登录即注册），支持邮箱与手机号两种方式
+打开【Custody】应用，注册账号（未注册账号登录即注册），支持邮箱与手机号两种方式
 
 .. image:: images/api_plan_zhucezhanghao3.png
    :width: 180px
@@ -62,10 +62,10 @@
 2.创建并配置企业钱包
 -------------------
 
-2.1 登录ChainUP Custody平台
+2.1 登录ChainUp Custody平台
 ~~~~~~~~~~~~~~~~~~~
 
-浏览器打开ChainUP Custody平台（waas.chainup.com 或 custody.chainup.com），使用【TopValue】应用，首页或云端钱包【扫码】功能扫描二维码登录
+浏览器打开ChainUp Custody平台（waas.chainup.com 或 custody.chainup.com），使用【Custody】应用，首页或云端钱包【扫码】功能扫描二维码登录
 
 .. image:: images/api_plan_saomadenglu.jpg
    :width: 800px
@@ -75,7 +75,7 @@
 2.2 创建钱包
 ~~~~~~~~~~~~~~~~~~~
 
-进入【ChainUP Custody】页面，创建钱包（钱包名称不支持修改，请谨慎填写）
+进入【ChainUp Custody】页面，创建钱包（钱包名称不支持修改，请谨慎填写）
 
 .. image:: images/api_plan_chuangjianqianbao1.jpg
    :width: 800px
