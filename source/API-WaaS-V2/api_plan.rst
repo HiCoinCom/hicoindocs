@@ -55,7 +55,7 @@
    :align: center
    
    
-   .. image:: images/api_plan_shezhi5.png
+.. image:: images/api_plan_shezhi5.png
    :width: 180px
    :align: center
 
