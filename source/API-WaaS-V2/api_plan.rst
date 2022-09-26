@@ -38,6 +38,11 @@
 .. image:: images/api_plan_zhucezhanghao4.png
    :width: 180px
    :align: center
+   
+   
+   .. image:: images/api_plan_zhucezhanghao5.png
+   :width: 180px
+   :align: center
 
 
 1.3 完成身份认证
