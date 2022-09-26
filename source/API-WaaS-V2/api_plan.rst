@@ -49,6 +49,7 @@
    :width: 180px
    :align: center
 
+身份认证信息，仅支持一种身份，且认证后不支持更换
 
 .. image:: images/api_plan_shezhi4.png
    :width: 180px
