@@ -53,6 +53,10 @@
 .. image:: images/api_plan_shezhi4.png
    :width: 180px
    :align: center
+   
+   .. image:: images/api_plan_shezhi5.png
+   :width: 180px
+   :align: center
 
 完成【身份认证】、【谷歌验证】（身份认证需要平台审核，您可以联系项目经理或客服快速审核）
 
