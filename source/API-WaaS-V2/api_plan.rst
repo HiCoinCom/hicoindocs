@@ -72,7 +72,7 @@
 2.1 登录ChainUp Custody平台
 ~~~~~~~~~~~~~~~~~~~
 
-浏览器打开ChainUp Custody平台（waas.chainup.com 或 custody.chainup.com），使用【Custody】应用，首页或云端钱包【扫码】功能扫描二维码登录
+浏览器打开ChainUp Custody平台（custody.chainup.com），使用【Custody】应用，首页或云端钱包【扫码】功能扫描二维码登录
 
 .. image:: images/api_plan_saomadenglu.jpg
    :width: 800px
