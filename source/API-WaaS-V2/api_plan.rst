@@ -14,7 +14,7 @@
 1.1 下载Custody钱包
 ~~~~~~~~~~~~~~~~~~~
 
-方式一：手机浏览器打开链接：https://custody.chainup.com/appDownload/
+方式一：手机浏览器打开链接：https://custody.chainup.com/download
 
 方式二：使用手机扫码打开链接下载：
 
