@@ -67,6 +67,7 @@ created_at            Long       必填         创建时间
 updated_at            Long       必填         修改时间
 txid                  String     必填         区块链交易ID
 confirmations         int        必填         区块链确认数
+address_from          String     必填         来源地址
 address_to            String     必填         充值到帐地址
 status                int        必填         0待确认，1 成功，2 失败，4 待KYT验证，5 待人工审核(KYT风险等级过高)，6 待人工审核(KYT充值熔断)
 ===================== ========== =========== =================================================
